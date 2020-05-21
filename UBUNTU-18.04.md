@@ -52,6 +52,60 @@ sudo /etc/init.d/xrdp restart
 * В открывшемся окне в качестве сессии выборе Xorg, введите пароль для пользователя, нажмите *OK*.
 * Для Windows можно скачать RDP-клиент: https://www.microsoft.com/en-us/download/details.aspx?id=50042
 
+## Автологин
+
+* Установка Display Manager
+
+```
+sudo apt-get install gdm3
+```
+
+* Как узнать какой используется менеджер отображения
+
+```
+systemctl status display-manager.service
+```
+
+* Для включения автоматического входа с GDM, добавьте в файл /etc/gdm/custom.conf
+
+```
+sudo nano /etc/gdm3/custom.conf
+```
+
+Следующие строки:
+
+```
+# Включение автоматического входа для пользователя
+[daemon]
+AutomaticLogin=имя_пользователя
+AutomaticLoginEnable=True
+```
+
+* Настройка входа без пароля. добавьте следующую строку в начало файла /etc/pam.d/gdm-password
+
+```
+auth sufficient pam_succeed_if.so user ingroup nopasswdlogin
+```
+
+Затем добавьте группу nopasswdlogin в вашу систему. Для этого выполните
+
+```
+sudo groupadd nopasswdlogin
+```
+
+Теперь добавьте своего пользователя в группу nopasswdlogin:
+
+```
+usermod -a -G nopasswdlogin $USER
+```
+
+После этого вам будет достаточно кликнуть на вашем имени пользователя для входа.
+
+Предупреждения:
+
+Не делайте это с аккаунтом root.
+Вы больше не сможете изменить тип вашей сессии при входе в GDM. Если вы хотите поменять ваш тип сессии по умолчанию, вам нужно сначало удалить вашего пользователя из группы nopasswdlogin.
+
 ## Установка Wine
 
 Для работы Metatrader на Linux нужна такая полезная штука, как Wine. Wine позволяет запускать приложения Windows на Linux.
@@ -154,15 +208,3 @@ Metatrader устанавливается как обычно. Есть лишь
 * Папка песочницы Metatrader находится здесь: *home\.wine\drive_c\Program Files(x84)\MetaTrader 4*
 * Терминал может глючить, подвисают котировки (https://www.mql5.com/ru/forum/116975) или слетают настройки (https://www.mql5.com/ru/forum/281434). Поэтому рекомендуется сохранять шаблоны и профили http://www.tevola.ru/trading/torgovye-platformy/metatrader/profiles-i-template-v-metatrader.html
 * При работе с FXCM для потока котировок лучше использовать сервер FXCMUSD-Demo02 Австралия.
-
-
-
-
-
-
-
-
-
-
-
-
