@@ -134,6 +134,12 @@ wine /root/_repoz/example/bin/example.exe
 wine start example.bat
 ```
 
+Также можно задать директорию выполнения 
+
+```
+wine start /d "/root/_repoz/" example.bat
+```
+
 Про Linux скрипты можно почитать здесь: https://linuxrussia.com/sh-ubuntu.html
 
 ## Установка chrome
