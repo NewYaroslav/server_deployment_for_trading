@@ -228,5 +228,12 @@ Metatrader устанавливается как обычно. Есть лишь
 * [АВТОЗАГРУЗКА LINUX](https://losst.ru/avtozagruzka-linux#%D0%90%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0_%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B0)
 * [XFCE - переключение пользователя](https://archlinux.org.ru/forum/topic/3584/)
 * [Как удалить пользователя в Linux с помощью команды userdel](https://andreyex.ru/operacionnaya-sistema-linux/kak-udalit-polzovatelya-v-linux-s-pomoshhyu-komandy-userdel/)
-
-
+* [Как в Linux включить автоматических вход в систему](https://zalinux.ru/?p=1774)
+* [XFCE4 автоматический вход и удаленное управление](https://ernesto-vegero.livejournal.com/3913.html)
+* [Autologin XFCE4](https://forum.calculate-linux.org/t/autologin-xfce4/8858)
+* [Display manager](https://wiki.archlinux.org/index.php/Display_manager_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)#%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_systemd-logind)
+* [Как включить автозапуск xfce](https://qna.habr.com/q/544719)
+* [XFCE автозапуск своей программы](https://www.linux.org.ru/forum/admin/5340361)
+* [Автозапуск в Linux](https://sysadmin.ru/articles/avtozapusk-v-linux)
+* [АВТОЗАГРУЗКА LINUX](https://losst.ru/avtozagruzka-linux#%D0%90%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B2_%D0%B2_Linux)
+* [Улучшение производительности RDP-подключения](https://www.cyberforum.ru/windows10/thread2024002.html)
