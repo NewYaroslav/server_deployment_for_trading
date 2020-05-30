@@ -222,4 +222,11 @@ Metatrader устанавливается как обычно. Есть лишь
 * [Как посмотреть переменные окружения в Linux](https://webhamster.ru/mytetrashare/index/mtb0/131478862068iuw07f6q)
 * [Как Дать Пользователю Права Root](https://www.shellhacks.com/ru/how-to-grant-root-access-user-root-privileges-linux/)
 * [Запустить команду от другого пользователя](https://linux-notes.org/zapustit-komandu-ot-drugogo-pol-zovatelya-v-unix-linux/)
+* [Автозапуск программы в xfce](https://www.linux.org.ru/forum/admin/5340361)
+* [КАК ДАТЬ ПРАВА НА ПАПКУ ПОЛЬЗОВАТЕЛЮ LINUX](https://losst.ru/kak-dat-prava-na-papku-polzovatelyu-linux)
+* [Установка RDP сервера](https://hostiq.ua/wiki/install-rdp-server/)
+* [АВТОЗАГРУЗКА LINUX](https://losst.ru/avtozagruzka-linux#%D0%90%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0_%D0%BE%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE_%D1%81%D1%82%D0%BE%D0%BB%D0%B0)
+* [XFCE - переключение пользователя](https://archlinux.org.ru/forum/topic/3584/)
+* [Как удалить пользователя в Linux с помощью команды userdel](https://andreyex.ru/operacionnaya-sistema-linux/kak-udalit-polzovatelya-v-linux-s-pomoshhyu-komandy-userdel/)
+
 
