@@ -218,4 +218,8 @@ Metatrader устанавливается как обычно. Есть лишь
 
 ## Прочее
 
-* [Пользователи и группы] (https://help.ubuntu.ru/wiki/%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%B8_%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B)
+* [Пользователи и группы](https://help.ubuntu.ru/wiki/%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B8_%D0%B8_%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%8B)
+* [Как посмотреть переменные окружения в Linux](https://webhamster.ru/mytetrashare/index/mtb0/131478862068iuw07f6q)
+* [Как Дать Пользователю Права Root](https://www.shellhacks.com/ru/how-to-grant-root-access-user-root-privileges-linux/)
+* [Запустить команду от другого пользователя](https://linux-notes.org/zapustit-komandu-ot-drugogo-pol-zovatelya-v-unix-linux/)
+
