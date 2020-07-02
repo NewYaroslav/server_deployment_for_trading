@@ -187,12 +187,25 @@ echo $EXAMPLE_DIR
 
 ## Настройка времени сервера
 
-Есть множество статей на данную тему:
+Если [сбивается время на сервере](https://losst.ru/sbivaetsya-vremya-v-ubuntu-i-windows), необходимо выполнить команду:
+
+```
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
+Проверить время можно командой:
+
+```
+sudo timedatectl
+```
+
+В остальном - есть множество статей на данную тему:
 https://linuxconfig.org/how-to-change-timezone-on-ubuntu-18-04-bionic-beaver-linux
 https://askubuntu.com/questions/323131/setting-timezone-from-terminal/524362#524362
 https://linuxize.com/post/how-to-set-or-change-timezone-on-ubuntu-18-04/
 https://askubuntu.com/questions/138423/how-do-i-change-my-timezone-to-utc-gmt
 https://pingvinus.ru/note/timezone#tzChangeLocal
+https://losst.ru/sbivaetsya-vremya-v-ubuntu-i-windows
 
 Например, можно сделать так:
 
