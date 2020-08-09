@@ -199,6 +199,42 @@ sudo timedatectl set-local-rtc 1 --adjust-system-clock
 sudo timedatectl
 ```
 
+[Настроить сбившееся время можно так](https://itshaman.ru/articles/257/sinkhronizatsiya-vremeni-cherez-internet-v-ubuntu):
+
+1. Установить NTP
+```
+sudo apt-get install ntp
+```
+
+2. Открыть файл настроек
+```
+sudo notepad /etc/ntp.conf
+```
+
+И добавить туда сервера
+```
+ntp1.imvp.ru
+ntp.psn.ru
+time.nist.gov
+pool.ntp.org
+ru.pool.ntp.org
+```
+
+3. Настраиваем автоматическую синхронизацию при каждой загрузке ОС. Для этого открываем конфигурационный файл /etc/rc.conf:
+```
+ sudo notepad /etc/rc.conf
+```
+
+Редактируем параметр ntpd_enable
+```
+ntpd_enable=»YES»
+```
+
+4. После каждого включения компьютера ваше время будет синхронизировано через Интернет и всегда будет актуальным. Если есть необходимость синхронизировать время вручную, то делается это командой:
+```
+sudo ntpdate time.nist.gov
+```
+
 В остальном - есть множество статей на данную тему:
 https://linuxconfig.org/how-to-change-timezone-on-ubuntu-18-04-bionic-beaver-linux
 https://askubuntu.com/questions/323131/setting-timezone-from-terminal/524362#524362
