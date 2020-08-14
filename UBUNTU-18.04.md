@@ -166,6 +166,16 @@ wine start /d "/root/_repoz/" example.bat
 ```
 
 Про Linux скрипты можно почитать здесь: https://linuxrussia.com/sh-ubuntu.html
+## Установка Chromium
+Отличия Chrome от Cromium незначительные:
+* Отсутствует поддержка таких закрытых кодеков, как: AAC, H.264 и MP3;
+* Отсутствует Adobe Flash;
+* Отсутствует механизм обновления для операционных систем MacOS и Windows;
+* Отсутствует механизм сбора и передачи некоторых данных о работе браузера на сервера Google;
+
+```
+sudo apt install chromium-browser
+```
 
 ## Установка chrome
 
